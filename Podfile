@@ -7,8 +7,8 @@ target 'MovieViewer' do
 #  inhibit_all_warnings!
 
   pod 'AFNetworking'
-  pod 'ZProgressHUD'
-    
+#  pod 'ZProgressHUD'
+
 
   # Pods for MovieViewer
 

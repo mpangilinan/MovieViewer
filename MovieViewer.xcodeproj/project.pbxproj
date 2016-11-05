@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0F41C2D5AB85DDA33B60312A /* Pods_MovieViewer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A95408E0C535C8AE7FBC47D8 /* Pods_MovieViewer.framework */; };
+		40CD97F2DE3F8EFAF3BEFA05 /* Pods_MovieViewer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42D3258F9E3C466B51295B14 /* Pods_MovieViewer.framework */; };
 		97090C2C1DC9854400BDB893 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97090C2B1DC9854400BDB893 /* AppDelegate.swift */; };
 		97090C311DC9854400BDB893 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97090C2F1DC9854400BDB893 /* Main.storyboard */; };
 		97090C331DC9854400BDB893 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97090C321DC9854400BDB893 /* Assets.xcassets */; };
@@ -19,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		125AE5879BB6A670288DA7CE /* Pods-MovieViewer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieViewer.release.xcconfig"; path = "Pods/Target Support Files/Pods-MovieViewer/Pods-MovieViewer.release.xcconfig"; sourceTree = "<group>"; };
+		42D3258F9E3C466B51295B14 /* Pods_MovieViewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MovieViewer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		51A31AEFC026AE5EB8739CC2 /* Pods-MovieViewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieViewer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MovieViewer/Pods-MovieViewer.debug.xcconfig"; sourceTree = "<group>"; };
 		97090C281DC9854400BDB893 /* MovieViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97090C2B1DC9854400BDB893 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -29,7 +30,6 @@
 		97090C3D1DC985FE00BDB893 /* MoviesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 		975CDE4D1DCC7E6C009D862D /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		97A157001DCB129200619D15 /* MovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
-		A95408E0C535C8AE7FBC47D8 /* Pods_MovieViewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MovieViewer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F41C2D5AB85DDA33B60312A /* Pods_MovieViewer.framework in Frameworks */,
+				40CD97F2DE3F8EFAF3BEFA05 /* Pods_MovieViewer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,7 +47,7 @@
 		28B736366813EC7200B0E4FE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A95408E0C535C8AE7FBC47D8 /* Pods_MovieViewer.framework */,
+				42D3258F9E3C466B51295B14 /* Pods_MovieViewer.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -280,6 +280,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -329,6 +330,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
